@@ -2,14 +2,14 @@
 
 Production Schedule:
 
-Assets created - 30.10.2023
+Assets created - 30.10.2023 - Done
 
-Main Menu - 02.11.2023
+Main Menu - 02.11.2023 - Done
 
-Title Screen - 04.11.2023
+Title Screen - 04.11.2023 - Done
 
 
-Player Movement- 06.11.2023
+Player Movement- 06.11.2023 - Done
 
 Orbs and holders scripted - 08.11.2023
 
