@@ -33,7 +33,7 @@ Object interaction (Holder/inventory) scripted - 09.11.2023
 
 -See inventory
 
-Place orbs in holder
+-Place orbs in holder
 
 
 Tutorial complete - 10.11.2023
