@@ -21,11 +21,20 @@ Player Movement- 06.11.2023 - Done
 
 -Walking horizontal/vertical - Done
 
-Orbs and holders scripted - 08.11.2023
+Orbs and holders scripted - 08.11.2023 - Done
+-Visual feedback - done
+-Sound feedback - done
 
 Object interaction scripted - 09.11.2023
+-Pick up orbs - Done
+-See inventory
+- Place orbs in holder
 
 
 Tutorial complete - 10.11.2023
+-Tutorial on movement
+-Tutorial on picking up orbs
+-Tutorial on interacting with orbs
+-Tutorial on finishing level
 
-Intro story implements - 12.11.2023
+Intro story implemented - 12.11.2023
