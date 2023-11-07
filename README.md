@@ -21,13 +21,13 @@ Player Movement- 06.11.2023 - Done
 
 -Walking horizontal/vertical - Done
 
-Orbs and holders scripted - 08.11.2023 - Done
+Orbs scripted - 08.11.2023 - Done
 
 -Visual feedback - done
 
 -Sound feedback - done
 
-Object interaction scripted - 09.11.2023
+Object interaction (Holder/inventory) scripted - 09.11.2023
 
 -Pick up orbs - Done
 
