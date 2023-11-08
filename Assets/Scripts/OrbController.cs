@@ -8,6 +8,8 @@ public class OrbController : MonoBehaviour
 
     public Notes notes;
 
+    //What I need to figure out. Currently player collides with orb, note plays, orb is gone.
+    //Instead, orb needs to go in inventory, searches for free slot, displays sprite.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
