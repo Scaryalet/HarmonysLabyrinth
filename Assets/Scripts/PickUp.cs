@@ -1,15 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEditor.Progress;
 
-public class OrbController : MonoBehaviour
+public class PickUp : MonoBehaviour
 {
-
-    public Notes notes;
-
-    //What I need to figure out. Currently player collides with orb, note plays, orb is gone.
-    //Instead, orb needs to go in inventory, searches for free slot, displays sprite.
 
     private Inventory inventory;
     public GameObject itemUi;
@@ -18,7 +13,8 @@ public class OrbController : MonoBehaviour
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
-    private void OnTriggerEnter2D(Collider2D other)
+
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
@@ -33,19 +29,6 @@ public class OrbController : MonoBehaviour
                     break;
                 }
             }
-            if (this.tag == "orbPurple")
-            {
-                notes.c.Play();
-            }
-            else if (this.tag == "orbAqua")
-            {
-                notes.d.Play();
-            }
-            else if (this.tag == "orbBlue")
-            {
-                notes.e.Play();
-            }
-            
         }
     }
 }
