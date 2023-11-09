@@ -31,7 +31,7 @@ Object interaction (Holder/inventory) scripted - 09.11.2023
 
 -Pick up orbs - Done
 
--See inventory
+-See inventory - Done
 
 -Place orbs in holder
 
