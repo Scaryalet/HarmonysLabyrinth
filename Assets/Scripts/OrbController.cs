@@ -24,18 +24,21 @@ public class OrbController : MonoBehaviour
             {
                 Instantiate(itemUi, inventory.slots[1].transform, false);
                 notes.c.Play();
+                inventory.isFull[1] = true;
                 Destroy(gameObject);
             }
             else if (this.tag == "orbAqua")
             {
                 Instantiate(itemUi, inventory.slots[0].transform, false);
                 notes.d.Play();
+                inventory.isFull[0] = true;
                 Destroy(gameObject);
             }
             else if (this.tag == "orbBlue")
             {
                 Instantiate(itemUi, inventory.slots[2].transform, false);
                 notes.e.Play();
+                inventory.isFull[2] = true;
                 Destroy(gameObject);
             }
         }

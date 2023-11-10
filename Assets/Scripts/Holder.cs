@@ -41,21 +41,38 @@ public class Holder : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-                Instantiate(orbHolderAqua);
-                notes.d.Play();
-                Destroy(gameObject);
+                if (inventory.isFull[0] == true)
+                {
+                    Instantiate(orbHolderAqua);
+                    notes.d.Play();
+                    inventory.isFull[0] = false;
+                    Destroy(GameObject.FindWithTag("SpriteAqua"));
+                    Destroy(gameObject);
+                }
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
-                Instantiate(orbHolderPurple);
-                notes.c.Play();
-                Destroy(gameObject);
+                if (inventory.isFull[1] == true)
+                {
+                    Instantiate(orbHolderPurple);
+                    notes.c.Play();
+                    inventory.isFull[1] = false;
+                    Destroy(GameObject.FindWithTag("SpritePurple"));
+                    Destroy(gameObject);
+                }
+                    
             }
             else if (Input.GetKeyDown(KeyCode.Alpha3))
             {
-                Instantiate(orbHolderBlue);
-                notes.e.Play();
-                Destroy(gameObject);
+                if (inventory.isFull[2] == true)
+                {
+                    Instantiate(orbHolderBlue);
+                    notes.e.Play();
+                    inventory.isFull[2] = false;
+                    Destroy(GameObject.FindWithTag("SpriteBlue"));
+                    Destroy(gameObject);
+                }
+                    
             }
         }
     }

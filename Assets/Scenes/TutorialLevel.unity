@@ -1592,6 +1592,7 @@ GameObject:
   - component: {fileID: 1357312248}
   - component: {fileID: 1357312247}
   - component: {fileID: 1357312246}
+  - component: {fileID: 1357312250}
   - component: {fileID: 1357312249}
   m_Layer: 0
   m_Name: 2holder
@@ -1777,10 +1778,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cc40199fbf9ae849aabd0f887c9db9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orbHolderAqua: {fileID: 0}
-  orbHolderBlue: {fileID: 0}
-  orbHolderPurple: {fileID: 0}
-  notes: {fileID: 0}
+  orbHolderAqua: {fileID: 6698570513574037432, guid: 9c952e4fb948e1141a30bad17acd9dc8, type: 3}
+  orbHolderBlue: {fileID: 1146914350322796002, guid: 34f99a1b4fce75c42b0a8a161e5790da, type: 3}
+  orbHolderPurple: {fileID: 8406315888009505000, guid: 29506752186664e4184a6df498c53dbe, type: 3}
+  notes: {fileID: 963320303}
+--- !u!61 &1357312250
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357312245}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.89, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5, y: 2.8}
+    newSize: {x: 5, y: 2.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.63, y: 4.13}
+  m_EdgeRadius: 0
 --- !u!1 &1528197163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2814,6 +2860,7 @@ GameObject:
   - component: {fileID: 1949757599}
   - component: {fileID: 1949757598}
   - component: {fileID: 1949757597}
+  - component: {fileID: 1949757601}
   - component: {fileID: 1949757600}
   m_Layer: 0
   m_Name: 3holder
@@ -2999,10 +3046,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cc40199fbf9ae849aabd0f887c9db9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orbHolderAqua: {fileID: 0}
-  orbHolderBlue: {fileID: 0}
-  orbHolderPurple: {fileID: 0}
-  notes: {fileID: 0}
+  orbHolderAqua: {fileID: 3865846432052212864, guid: ca660b215d004204884c23a08255d209, type: 3}
+  orbHolderBlue: {fileID: 9037968540617013709, guid: d3608b547693b974b9b234dab2341200, type: 3}
+  orbHolderPurple: {fileID: 3023179739999606599, guid: 6b6d6287d806a7544bf7a5b1a0d148df, type: 3}
+  notes: {fileID: 963320303}
+--- !u!61 &1949757601
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949757596}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.72, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5, y: 2.8}
+    newSize: {x: 5, y: 2.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.28, y: 4.78}
+  m_EdgeRadius: 0
 --- !u!1 &1981775295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3335,7 +3427,7 @@ PrefabInstance:
       objectReference: {fileID: 963320303}
     - target: {fileID: 4701111767755201953, guid: f16403a5bd2ae184dab4798badc53b2f, type: 3}
       propertyPath: m_Name
-      value: orb_blue
+      value: orbBlue
       objectReference: {fileID: 0}
     - target: {fileID: 5726525143109863080, guid: f16403a5bd2ae184dab4798badc53b2f, type: 3}
       propertyPath: m_LocalPosition.x

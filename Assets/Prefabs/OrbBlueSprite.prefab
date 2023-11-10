@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3158052613357875909}
   - component: {fileID: 1840354446041657506}
   m_Layer: 5
-  m_Name: OrbBlueButton
-  m_TagString: Untagged
+  m_Name: OrbBlueSprite
+  m_TagString: SpriteBlue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

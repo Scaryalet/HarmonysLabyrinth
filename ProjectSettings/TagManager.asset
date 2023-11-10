@@ -18,6 +18,15 @@ TagManager:
   - Holder1Aqua
   - Holder1Blue
   - Holder1Purple
+  - Holder2Purple
+  - Holder2Aqua
+  - Holder2Blue
+  - Holder3Aqua
+  - Holder3Blue
+  - Holder3Purple
+  - SpriteAqua
+  - SpriteBlue
+  - SpritePurple
   layers:
   - Default
   - TransparentFX
