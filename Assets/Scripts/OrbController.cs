@@ -8,8 +8,6 @@ public class OrbController : MonoBehaviour
 
     public Notes notes;
 
-    //What I need to figure out. Currently player collides with orb, note plays, orb is gone.
-    //Instead, orb needs to go in inventory, searches for free slot, displays sprite.
 
     private Inventory inventory;
     public GameObject itemUi;
@@ -22,30 +20,24 @@ public class OrbController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            for (int i = 0; i < inventory.slots.Length; i++)
-            {
-                if (inventory.isFull[i] == false)
-                {
-                    //Item can be added to inventory
-                    inventory.isFull[i] = true;
-                    Instantiate(itemUi, inventory.slots[i].transform, false);
-                    Destroy(gameObject);
-                    break;
-                }
-            }
             if (this.tag == "orbPurple")
             {
+                Instantiate(itemUi, inventory.slots[1].transform, false);
                 notes.c.Play();
+                Destroy(gameObject);
             }
             else if (this.tag == "orbAqua")
             {
+                Instantiate(itemUi, inventory.slots[0].transform, false);
                 notes.d.Play();
+                Destroy(gameObject);
             }
             else if (this.tag == "orbBlue")
             {
+                Instantiate(itemUi, inventory.slots[2].transform, false);
                 notes.e.Play();
+                Destroy(gameObject);
             }
-            
         }
     }
 }

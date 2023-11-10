@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5650596757527797086}
   - component: {fileID: 8256180068710396601}
   - component: {fileID: 2038201805703563908}
-  - component: {fileID: -5857144364332028215}
   m_Layer: 5
   m_Name: OrbPurpleButton
   m_TagString: Untagged
@@ -76,16 +75,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-5857144364332028215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1359726638314714200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e523a890148f1d46b290cce7986579e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 6483602754880945221, guid: 737c920e7f2113b48bc63b50a2d8509c, type: 3}

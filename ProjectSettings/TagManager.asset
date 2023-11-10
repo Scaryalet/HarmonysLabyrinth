@@ -7,6 +7,17 @@ TagManager:
   - orbAqua
   - orbBlue
   - orbPurple
+  - Holder1
+  - Holder2
+  - Holder3
+  - Int1
+  - Int2
+  - Int3
+  - Int5
+  - Int4
+  - Holder1Aqua
+  - Holder1Blue
+  - Holder1Purple
   layers:
   - Default
   - TransparentFX

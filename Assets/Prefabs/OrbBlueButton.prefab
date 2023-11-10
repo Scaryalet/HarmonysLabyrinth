@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2874120168282459867}
   - component: {fileID: 3158052613357875909}
   - component: {fileID: 1840354446041657506}
-  - component: {fileID: -9019163027383353603}
   m_Layer: 5
   m_Name: OrbBlueButton
   m_TagString: Untagged
@@ -76,16 +75,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-9019163027383353603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3878948378294589007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e523a890148f1d46b290cce7986579e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 4701111767755201953, guid: f16403a5bd2ae184dab4798badc53b2f, type: 3}
