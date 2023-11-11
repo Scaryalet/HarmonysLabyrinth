@@ -18,7 +18,6 @@ public class Holder : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             inTrigger = true;
-            Debug.Log("Trigger is:" + inTrigger);
         }
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -26,7 +25,6 @@ public class Holder : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             inTrigger = false;
-            Debug.Log("Trigger is:" + inTrigger);
         }
     }
 

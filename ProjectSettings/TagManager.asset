@@ -27,6 +27,8 @@ TagManager:
   - SpriteAqua
   - SpriteBlue
   - SpritePurple
+  - MovementTut
+  - OrbsTut
   layers:
   - Default
   - TransparentFX

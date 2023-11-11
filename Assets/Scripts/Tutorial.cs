@@ -7,6 +7,8 @@ public class Tutorial : MonoBehaviour
     public GameObject movementTutorial;
     public GameObject orbTutorial;
     public GameObject holderTutorial;
+    public GameObject portalTutorial;
+    public GameObject levelStart;
 
     public void HideMovement()
     {
@@ -17,6 +19,17 @@ public class Tutorial : MonoBehaviour
     {
         orbTutorial.SetActive(false);
         holderTutorial.SetActive(true);
+    }
 
+    public void HideHolders()
+    {
+        holderTutorial.SetActive(false);
+        portalTutorial.SetActive(true);
+    }
+
+    public void HidePortals()
+    {
+        portalTutorial.SetActive(false);
+        levelStart.SetActive(true );
     }
 }
