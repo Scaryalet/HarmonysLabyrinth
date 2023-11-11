@@ -19,10 +19,6 @@ public class LevelComplete : MonoBehaviour
                     SceneManager.LoadScene(4);
                 }
             }
-        } 
-        else if (GameObject.FindGameObjectWithTag("Holder1Aqua").activeInHierarchy)
-        {
-            Instantiate(incorrect);
         }
     }
 }
