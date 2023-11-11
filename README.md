@@ -27,7 +27,7 @@ Orbs scripted - 08.11.2023 - Done
 
 -Sound feedback - done
 
-Object interaction (Holder/inventory) scripted - 09.11.2023
+Object interaction (Holder/inventory) scripted - 09.11.2023 - Done
 
 -Pick up orbs - Done
 
@@ -36,14 +36,14 @@ Object interaction (Holder/inventory) scripted - 09.11.2023
 -Place orbs in holder - Done
 
 
-Tutorial complete - 10.11.2023
+Tutorial complete - 10.11.2023 - Done
 
--Tutorial on movement
+-Tutorial on movement - Done
 
--Tutorial on picking up orbs
+-Tutorial on picking up orbs - Done
 
--Tutorial on interacting with orbs
+-Tutorial on interacting with orbs - Done
 
--Tutorial on finishing level
+-Tutorial on finishing level - Done
 
-Intro story implemented - 12.11.2023
+Intro story implemented - 12.11.2023 - Done
