@@ -36,6 +36,19 @@ Object interaction (Holder/inventory) scripted - 09.11.2023 - Done
 -Place orbs in holder - Done
 
 
+Future Production:
+
+-incorrect at end of level if holders are wrong. Possible revamp of code/how project is set up, may be needed as i couldn't get it to work.
+
+- Pause menu functioning
+
+- Save feature added
+
+- Settings added
+
+- More story and more levels!
+
+
 Tutorial complete - 10.11.2023 - Done
 
 -Tutorial on movement - Done
